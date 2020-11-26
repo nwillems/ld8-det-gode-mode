@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<p class="view">by {{ page.author | default: site.author }}</p>
+
+<dl>
+  <dt>Hvor meget plads kræver den?</dt>
+  <dd>{{ page.space_requirements }}</dd>
+  
+  <dt>Antal personer</dt>
+  <dd>{{ page.space_requirements }}</dd>
+  
+  <dt>Type</dt>
+  <dd>{{ page.space_requirements }}</dd>
+  
+  <dt>Materialer</dt>
+  <dd>{{ page.space_requirements }}</dd>
+  
+  <dt>Hvor lang tid tager det?</dt>
+  <dd>{{ page.space_requirements }}</dd>
+  
+  <dt>Målgruppe</dt>
+  <dd>{{ page.space_requirements }}</dd>
+  
+  <dt>Forberedelsestid?</dt>
+  <dd>{{ page.space_requirements }}</dd>
+</dl>
+		
+{{content}}
