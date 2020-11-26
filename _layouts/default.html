@@ -25,9 +25,19 @@
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.pdf_url }}">Download <strong>PDF Fil</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">Se kodne på <strong>GitHub</strong></a></li>
+          <li><a href="{{ site.github.pdf_url }}">Køb som <strong>bog</strong></a></li>
+          <li><a href="{{ site.github.repository_url }}">Se koden på <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
+        
+        <h2>Møder</h2>
+        <ul class="pages">
+          {% for page in site.pages %}
+          <li>
+            <a href="{{ page.url }}">{{ page.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
       </header>
       <section>
 
