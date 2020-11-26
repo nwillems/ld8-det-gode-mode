@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mode
 title:  "Et godt møde!"
 author: "John Doe"
 space_requirements: "42 and some"
