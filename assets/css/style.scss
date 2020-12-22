@@ -2,12 +2,3 @@
 ---
 
 @import "{{ site.theme }}";
-
-/* Kommentar */
-ul.pages {
-  list-style: disclosure-closed;
-}
-
-ul.pages li {
-  float: none;
-}
